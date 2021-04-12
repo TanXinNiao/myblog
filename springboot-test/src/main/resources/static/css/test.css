@@ -1,0 +1,360 @@
+/*dede58.com 做最好的织梦整站模板下载网站*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, small, strong, dl, dt, dd, ol, ul, li {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+em, strong, i {
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+body {
+  line-height: 1;
+  font-size: 12px;
+  font-family: "Microsoft Yahei";
+  color: #333;
+  background-color: #fff;
+}
+ul, ol {
+  list-style: none;
+}
+a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: #00a1d6;
+}
+input, button {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+img {
+  vertical-align: top;
+  border: 0;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+.header{
+    height: 200px;
+    background: url(../img/头像.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.page-top{
+    width: 100%;
+    height: 42px;
+    position: relative;
+}
+
+.page-top .bg-wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.page-top .mask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../img/头像.jpg) no-repeat;
+    background-size: 100% 200px;
+    overflow: hidden;
+    filter: blur(5px);
+}
+
+.page-top-nav{
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+    z-index: 1000;
+}
+
+
+.page-top .top-nav-link{
+    float: left;
+}
+
+.top-nav-link ul{
+    font-size: 0;
+}
+
+.top-nav-link .item-home{
+    background: url(../img/头像.jpg) no-repeat 15px center;
+    background-size: 20% 30%;
+    display: inline-block;
+}
+
+.top-nav-link .item-home a{
+    padding: 0 0 0 20px;
+    height: 42px;
+    width: 50px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+.page-top .top-nav-link .item{
+    display: inline-block;
+    position: relative;
+}
+
+.page-top .top-nav-link .item > a{
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    padding: 0 12px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.page-top .user-center{
+    float: right;
+}
+
+.user-center .login-box{
+    float: left;
+    font-size: 0;
+}
+
+.login-box a{
+    display: inline-block;
+    padding:0 10px;
+    font-size: 12px;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+}
+
+.login-box span{
+    display: inline-block;
+    height: 12px;
+    border-left: 1px solid #fff;
+    margin-top: 16px;
+    vertical-align: top;
+}
+
+.user-center .user-post{
+    float: left;
+}
+
+.user-post a{
+    font-size: 12px;
+    height: 48px;
+    width: 58px;
+    text-align: center;
+    line-height: 42px;
+    background: url(../img/user_post.png) no-repeat;
+    color: #fff;
+}
+
+.header .page-top-c{
+    width: 100%;
+    position: relative;
+}
+
+.page-top-c .top-c-content{
+    width: 980px;
+    margin: 0 auto;
+    height: 128px;
+    position: relative;
+}
+
+.top-c-content .top-c-logo{
+    position: absolute;
+    background: url(../img/005-blow-kiss.png);
+    background-size: 100% 100%;
+    top: 58px;
+    left: 110px;
+    width: 60px;
+    height: 60px;
+}
+
+.top-c-content .search-clearfix{
+    position: absolute;
+    bottom: 22px;
+    right: 0;
+    background-color: rgba(0,0,0,0.12);
+}
+
+.search-clearfix .search-rank{
+    float: left;
+    width: 42px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 4px;
+    color: #a3c7fe;
+    padding-left: 26px;
+    background: url(../img/排行榜.png) no-repeat 2px center;
+    background-size: 20px 50%;
+    background-color: rgba(255, 255, 255, .88);
+    font-size: 12px;
+}
+
+.search-box{
+    float: left;
+    margin-left: 1px;
+}
+
+.search-txt{
+    float: left;
+    width: 220px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, .88);
+    padding: 0 36px 0 12px;
+}
+
+.search-box a{
+    width: 36px;
+    height: 32px;
+    position: absolute;
+    right: 0;
+}
+
+.search-box i {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+    background: url(../img/page_icons.png) no-repeat -660px -728px;
+  }
+
+  .search-box a:hover i {
+    background-position: -725px -728px;
+  }
+
+.search-rank:hover,
+.search-box:hover .search-txt {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.page-center-nav{
+    width: 100%;
+}
+
+.page-center-clearfix{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.center-nav-list{
+    height: 38px;
+    padding: 12px 0;
+    font-size: 0;
+    float: left;
+}
+
+.center-nav-list .item{
+    float: left;
+    padding: 0 11px 10px;
+}
+.center-nav-list .item-home{
+    padding-left: 0;
+}
+
+
+.center-nav-list .link {
+    display: block;
+
+    position: relative;
+    padding-top: 22px;
+    font-size: 14px;
+}
+
+.center-nav-list .item-home .link{
+    padding-left: 0;
+    background: url(../img/page_icons.png) no-repeat -658px -1176px;
+}
+
+
+.center-nav-list .link .num {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 100%;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    background-color: #ffafc9;
+    border-radius: 4px;
+    font-size: 11px;
+}
+
+.center-nav-list .link i {
+    display: block;
+    padding: 1px 3px;
+    line-height: 12px;
+    text-align: center;
+    font-family: Calibri,Arial,Helvetica,sans-serifsans-serif;
+}
+
+.center-nav-last{
+    float: left;
+    height: 38px;
+    padding: 12px 0;
+}
+
+.center-nav-last .item{
+    float: left;
+}
+
+.center-nav-last .link{
+    padding: 0;
+    padding-left: 22px;
+    line-height: 38px;
+    font-size: 16px;
+    background: url(../img/page_icons.png) no-repeat;
+}
+
+.center-nav-last .item-square{
+    padding: 0;
+    padding-left: 13px;
+    padding-bottom: 6px;
+}
+
+.center-nav-last .item-square .link{
+    background-position: -663px -910px;
+}
+
+.center-nav-last .item-live{
+    padding: 0;
+    padding-bottom: 16px;
+    margin-left: 27px;
+}
+
+.center-nav-last .item-live .link{
+    background-position: -664px -524px;
+}
+
+.center-nav-last .item-room{
+    padding: 0;
+    padding-left: 24px;
+}
+
+.center-nav-last .item-room .link{
+    background-position: -727px -524px;
+}
+
+.center-nav-gif{
+    float: right;
+    padding-top: 4px;
+}
+
+.center-nav-gif img{
+    width: 76px;
+    height: 44px;
+}
